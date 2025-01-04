@@ -41,7 +41,7 @@ with open('data.txt', 'r') as file:
 
 # Fixed values
 available_taps = 1000
-count = 302
+count = 313
 
 # Loop to send requests for each token, and repeat the process after completing all accounts
 while True:
