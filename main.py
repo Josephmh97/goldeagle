@@ -64,7 +64,7 @@ with open('data.txt', 'r') as file:
 
 # Fixed values for the /tap request
 available_taps = 1000
-count = 487
+count = 512
 
 # Loop to send requests for each token, alternating between /tap and /wallet/claim
 while True:
@@ -77,6 +77,6 @@ while True:
         claim_response = send_claim_request(token)
         print(f"/wallet/claim response for token {token}: {claim_response}")
 
-    # Wait for 6 minutes before repeating the process for all accounts
-    print("Waiting for 6 minutes before repeating...")
-    time.sleep(6 * 60)  # Wait for 6 minutes before starting the next iteration
+    # Wait for 9 minutes before repeating the process for all accounts
+    print("Waiting for 9 minutes before repeating...")
+    time.sleep(9 * 60)  # Wait for 9 minutes before starting the next iteration
