@@ -64,7 +64,7 @@ with open('data.txt', 'r') as file:
 
 # Fixed values for the /tap request
 available_taps = 1000
-count = 500
+count = 487
 
 # Loop to send requests for each token, alternating between /tap and /wallet/claim
 while True:
