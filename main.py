@@ -77,6 +77,6 @@ while True:
         claim_response = send_claim_request(token)
         print(f"/wallet/claim response for token {token}: {claim_response}")
 
-    # Wait for 5 minutes before repeating the process for all accounts
-    print("Waiting for 5 minutes before repeating...")
-    time.sleep(5 * 60)  # Wait for 5 minutes before starting the next iteration
+    # Wait for 6 minutes before repeating the process for all accounts
+    print("Waiting for 6 minutes before repeating...")
+    time.sleep(6 * 60)  # Wait for 6 minutes before starting the next iteration
